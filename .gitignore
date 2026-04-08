@@ -9,9 +9,16 @@ wheels/
 *.egg-info
 
 
-data/
+.DS_Store
+
+data/raw/
+!data/processed/
 models/
 
 # Virtual environments
 .venv
 .env
+# 02_data_cleaning
+notebooks/01_data_collection copy.ipynb
+notebooks/01_data_collection copy 2.ipynb
+notebooks/02_data_cleaning copy.ipynb
