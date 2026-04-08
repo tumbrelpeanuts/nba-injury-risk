@@ -14,6 +14,7 @@ wheels/
 data/raw/
 !data/processed/
 data/processed/player_game_logs_all.csv
+
 models/
 
 # Virtual environments
@@ -23,3 +24,4 @@ models/
 notebooks/01_data_collection copy.ipynb
 notebooks/01_data_collection copy 2.ipynb
 notebooks/02_data_cleaning copy.ipynb
+notebooks/02_data_cleaning copy 2.ipynb
