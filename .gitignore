@@ -13,6 +13,7 @@ wheels/
 
 data/raw/
 !data/processed/
+data/processed/player_game_logs_all.csv
 models/
 
 # Virtual environments
