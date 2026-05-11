@@ -1,7 +1,7 @@
 Predicting NBA Injury Risk from Game-Level Workload Data
 =========================================================
 
-OVERVIEW
+Overview
 --------
 This project builds a machine learning pipeline to predict NBA player injury
 risk using game-level workload data. It covers data collection from the NBA
@@ -11,13 +11,13 @@ classification with XGBoost, Random Forest, Logistic Regression, and
 Decision Tree models evaluated with time-series cross-validation.
 
 
-REQUIREMENTS
+Requirements
 ------------
   - Python 3.13+
   - uv  (https://docs.astral.sh/uv/)
 
 
-SETUP
+Set up
 -----
 
 ### Install uv
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 
 
 
-PROJECT STRUCTURE
+Project Structure
 -----------------
 
 ```
@@ -78,8 +78,7 @@ PROJECT STRUCTURE
 ```
 
 
-
-NOTEBOOKS
+Notebooks
 ---------
 
 * 01_data_collection.ipynb — Data Collection
@@ -102,3 +101,4 @@ NOTEBOOKS
   * Handles class imbalance with SMOTE and weighting. 
   * Hyperparameter tuning via GridSearchCV with TimeSeriesSplit. Evaluates on ROC-AUC, Average Precision, F1, Precision, and Recall. 
   * Saves trained models to models/.
+
