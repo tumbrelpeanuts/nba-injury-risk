@@ -11,10 +11,15 @@ wheels/
 
 .DS_Store
 
-data/raw/
-!data/processed/
-data/processed/player_game_logs_all.csv
+# Data folders - track structure but not contents
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/raw/game_logs/.gitkeep
 
+
+# Models
 models/
 
 # Virtual environments
